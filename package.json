@@ -1,40 +1,40 @@
 {
-  "devDependencies": {
-    "@eslint/js": "^9.7.0",
-    "@types/node": "^20.14.10",
-    "@typescript-eslint/eslint-plugin": "^7.16.0",
-    "@typescript-eslint/parser": "^7.16.0",
-    "eslint": "^9.7.0",
-    "eslint-config-prettier": "^9.1.0",
-    "globals": "^15.8.0",
-    "prettier": "^3.3.3",
-    "ts-lit-plugin": "^2.0.2",
-    "typescript": "^5.5.3",
-    "typescript-eslint": "^7.16.0",
-    "vite": "^5.3.3"
-  },
-  "dependencies": {
-    "lit-html": "^3.1.4"
-  },
-  "name": "lupokedex",
-  "description": "Web app Pokedex",
-  "version": "0.0.1",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/horameus/Lupokedex.git"
-  },
-  "keywords": [
-    "pokedex",
-    "webapp"
-  ],
-  "author": "Ludovic Hartmann / Benoit Safari",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/horameus/Lupokedex/issues"
-  },
-  "homepage": "https://github.com/horameus/Lupokedex#readme"
+    "name": "lupokedex",
+    "version": "0.0.1",
+    "homepage": "https://github.com/horameus/Lupokedex#readme",
+    "description": "Web app Pokedex",
+    "main": "index.js",
+    "author": "Ludovic Hartmann / Benoit Safari",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/horameus/Lupokedex/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/horameus/Lupokedex.git"
+    },
+    "keywords": [
+        "pokedex",
+        "webapp"
+    ],
+    "scripts": {
+        "dev": "vite"
+    },
+    "dependencies": {
+        "lit-html": "^3.1.4"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.7.0",
+        "@types/node": "^20.14.10",
+        "@typescript-eslint/eslint-plugin": "^7.16.0",
+        "@typescript-eslint/parser": "^7.16.0",
+        "eslint": "^9.7.0",
+        "eslint-config-prettier": "^9.1.0",
+        "globals": "^15.8.0",
+        "prettier": "^3.3.3",
+        "ts-lit-plugin": "^2.0.2",
+        "typescript": "^5.5.3",
+        "typescript-eslint": "^7.16.0",
+        "vite": "^5.3.3"
+    }
 }
