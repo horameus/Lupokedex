@@ -3,3 +3,13 @@ body {
     font-weight: 500;
     background-color: #1f1f1f;
 }
+
+.main-container {
+    display: flex;
+}
+
+.container {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
