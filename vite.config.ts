@@ -1,3 +1,4 @@
+/// <reference types="vitest" />
 import react from '@vitejs/plugin-react';
 import { resolve } from 'path';
 import { defineConfig } from 'vite';
@@ -11,6 +12,9 @@ export default defineConfig({
         alias: {
             '@': resolve(__dirname, 'src'),
         },
+    },
+    test: {
+        globals: true,
     },
     plugins: [react()],
 });

@@ -1,4 +1,4 @@
-import LupoButton from './components/LupoButton/LupoButton';
+import { LupoButton } from './components/LupoButton';
 
 export default function App() {
     return (
@@ -8,14 +8,15 @@ export default function App() {
             <section className="App--section--LupoButton">
                 <div className="App--section--LupoButton--container">
                     <LupoButton variant="primary">Search</LupoButton>
-                    <LupoButton variant="primary" disabled={true}>
+                    <LupoButton>Search</LupoButton>
+                    <LupoButton variant="primary" disabled>
                         Search
                     </LupoButton>
                 </div>
 
                 <div className="App--section--LupoButton--container">
                     <LupoButton variant="secondary">Search</LupoButton>
-                    <LupoButton variant="secondary" disabled={true}>
+                    <LupoButton variant="secondary" disabled>
                         Search
                     </LupoButton>
                 </div>
