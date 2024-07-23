@@ -1,0 +1,46 @@
+.LupoButton {
+    font-family: inherit;
+    font-size: large;
+    font-weight: 500;
+    min-width: 5.625rem;
+    min-height: 2rem;
+    padding: 0.375rem 1rem 0.375rem 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    gap: 1rem;
+    /*TEMPORARY*/
+    margin-bottom: 2rem;
+}
+
+.LupoButton--primary {
+    color: var(--palette-text);
+    background-color: var(--palette-primary);
+}
+
+.LupoButton--primary:hover {
+    box-shadow: inset 0 0 2rem -1rem white;
+    cursor: pointer;
+}
+
+.LupoButton--primary.disabled {
+    color: var(--palette-text-caption);
+    background-color: var(--palette-disabled);
+    pointer-events: none;
+}
+
+.LupoButton--secondary {
+    color: var(--palette-text);
+    background-color: var(--palette-background);
+    border: var(--palette-paper) 0.1rem solid;
+}
+
+.LupoButton--secondary:hover {
+    border: var(--palette-primary) 0.1rem solid;
+    cursor: pointer;
+}
+
+.LupoButton--secondary.disabled {
+    color: var(--palette-text-caption);
+    border: var(--palette-disabled) 0.1rem solid;
+    pointer-events: none;
+}
