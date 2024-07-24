@@ -7,7 +7,12 @@ export default function LupoButton({ ...props }: LupoSearchbarProps) {
     const classNames = useClassNames('LupoSearchbar', { props });
 
     return (
-        <input className={classNames} disabled={props.disabled} onChange={props.onChange} value={props.value}>
+        <input
+            className={classNames}
+            disabled={props.disabled}
+            onChange={props.onChange}
+            value={props.value}
+            placeholder={props.placeholder}>
             {props.children}
         </input>
     );
