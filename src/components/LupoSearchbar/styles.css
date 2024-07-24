@@ -12,6 +12,10 @@
     color: var(--palette-text);
     background-color: var(--palette-background);
 
+    background: url('./magnifier.svg') no-repeat left;
+    background-size: auto;
+    padding-left: 2rem;
+
     &.LupoSearchbar--disabled {
         color: var(--palette-text-caption);
         background-color: var(--palette-disabled);
