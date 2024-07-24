@@ -35,13 +35,14 @@ body {
     margin-bottom: 2rem;
 }
 
-.App--section--LupoButton {
+.App--section--LupoCompo {
     display: flex;
     gap: 1rem;
     flex-direction: column;
+    margin-bottom: 2rem;
 }
 
-.App--section--LupoButton--container {
+.App--section--LupoCompo--container {
     display: flex;
     gap: 1rem;
     flex-direction: row;

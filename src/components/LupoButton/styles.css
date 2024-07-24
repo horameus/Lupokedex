@@ -31,14 +31,14 @@
     background-color: var(--palette-background);
     border: var(--palette-paper) 0.1rem solid;
 
-    &:hover {
-        border: var(--palette-primary) 0.1rem solid;
-        cursor: pointer;
-    }
-
     &.LupoButton--disabled {
         color: var(--palette-text-caption);
         border: var(--palette-disabled) 0.1rem solid;
         pointer-events: none;
+    }
+
+    &:hover {
+        border: var(--palette-primary) 0.1rem solid;
+        cursor: pointer;
     }
 }
