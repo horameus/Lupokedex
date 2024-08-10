@@ -1,4 +1,7 @@
 .LupoSearchbar {
+    display: flex;
+    align-items: center;
+
     font-family: inherit;
     font-size: medium;
     font-weight: 500;
@@ -12,13 +15,23 @@
     color: var(--palette-text);
     background-color: var(--palette-background);
 
-    background: url('./magnifier.svg') no-repeat left;
-    background-size: auto;
-    padding-left: 2rem;
-
     &.LupoSearchbar--disabled {
         color: var(--palette-text-caption);
         background-color: var(--palette-disabled);
         pointer-events: none;
     }
+}
+
+.LupoSearchbar svg {
+    color: var(--palette-text);
+}
+
+.LupoSearchbar--disabled svg {
+    color: red;
+    background-color: var(--palette-disabled);
+    pointer-events: none;
+}
+
+.LupoSearchbar input {
+    all: unset;
 }
