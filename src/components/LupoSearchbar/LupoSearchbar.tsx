@@ -5,7 +5,7 @@ import { LupoSearchbarProps } from './types';
 import './styles.css';
 
 export default function LupoSearchBar({ ...props }: LupoSearchbarProps) {
-    const classNames = useClassNames('LupoSearchbar', { props });
+    const classNames = useClassNames('LupoSearchbar', { ...props });
 
     return (
         <div className={classNames}>
@@ -14,7 +14,8 @@ export default function LupoSearchBar({ ...props }: LupoSearchbarProps) {
                 disabled={props.disabled}
                 onChange={props.onChange}
                 value={props.value}
-                placeholder={props.placeholder}>
+                placeholder={props.placeholder}
+                type={props.type}>
                 {props.children}
             </input>
         </div>

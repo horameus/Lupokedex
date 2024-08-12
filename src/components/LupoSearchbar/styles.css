@@ -1,3 +1,8 @@
+.LupoSearchbar input {
+    all: unset;
+    width: 100%;
+}
+
 .LupoSearchbar {
     display: flex;
     align-items: center;
@@ -27,11 +32,7 @@
 }
 
 .LupoSearchbar--disabled svg {
-    color: red;
+    color: var(--palette-text-caption);
     background-color: var(--palette-disabled);
     pointer-events: none;
-}
-
-.LupoSearchbar input {
-    all: unset;
 }
