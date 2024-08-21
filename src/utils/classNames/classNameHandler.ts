@@ -10,7 +10,8 @@ export const handleClassNames = (baseClass: string, props: Record<string, any>) 
 
         acceptedProps.forEach(accepted => {
             if (accepted === key) {
-                if (typeof value === 'boolean') classNames.push(resolveClassName(baseClass, key));
+                console.log(key, ' isBool: ', typeof value === 'boolean');
+                if (typeof value === 'boolean' && value) classNames.push(resolveClassName(baseClass, key));
                 else classNames.push(resolveClassName(baseClass, value));
             }
         });
