@@ -1,3 +1,5 @@
+import React from 'react';
+
 export interface LupoButtonProps extends React.PropsWithChildren {
     variant?: 'primary' | 'secondary';
     disabled?: boolean;
