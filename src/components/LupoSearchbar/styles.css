@@ -27,10 +27,6 @@
     }
 }
 
-.LupoSearchbar svg {
-    color: var(--palette-text);
-}
-
 .LupoSearchbar--disabled svg {
     color: var(--palette-text-caption);
     background-color: var(--palette-disabled);
