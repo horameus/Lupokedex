@@ -23,6 +23,11 @@ test('classNameHandler_WithDisallowedProps_ReturnsEmptyString', () => {
     expect(result).toBe(baseClassName);
 });
 
+test('classNameHandler_WithFalsyBoolean_ReturnEmptyString', () => {
+    const result = handleClassNames(baseClassName, { disabled: false });
+    expect(result).toBe(baseClassName);
+});
+
 test('resolveClassName_ReturnsBuildedClassName', () => {
     const result = resolveClassName('Mdr', 'lol', 'xptdr');
     expect(result).toBe('Mdr--lol--xptdr');
