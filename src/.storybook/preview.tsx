@@ -3,7 +3,6 @@ import React from 'react';
 import '../styles.global.css';
 
 const Decorator = (Story: StoryFn) => {
-    // Enveloppe les stories
     return (
         <div style={{ boxSizing: 'border-box', display: 'flex', padding: '2rem' }}>
             <Story />
